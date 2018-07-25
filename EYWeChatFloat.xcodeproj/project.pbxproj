@@ -21,6 +21,7 @@
 		926C2FE921081654001BBABD /* EYFloatBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C2FE221081654001BBABD /* EYFloatBall.m */; };
 		926C2FEA21081654001BBABD /* EYFloatAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C2FE321081654001BBABD /* EYFloatAreaView.m */; };
 		926C2FED21081AD9001BBABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926C2FEC21081AD8001BBABD /* UIKit.framework */; };
+		92D8A6D921082DC300D17E55 /* EYWeChatFloat.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 92D8A6D821082DC300D17E55 /* EYWeChatFloat.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		926C2FE321081654001BBABD /* EYFloatAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EYFloatAreaView.m; sourceTree = "<group>"; };
 		926C2FE421081654001BBABD /* EYFloatBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EYFloatBall.h; sourceTree = "<group>"; };
 		926C2FEC21081AD8001BBABD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92D8A6D821082DC300D17E55 /* EYWeChatFloat.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EYWeChatFloat.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		926C2F9A210804CA001BBABD = {
 			isa = PBXGroup;
 			children = (
+				92D8A6D821082DC300D17E55 /* EYWeChatFloat.podspec */,
 				926C2FD521081654001BBABD /* EYFloatBall */,
 				926C2FA5210804CA001BBABD /* EYWeChatFloat */,
 				926C2FA4210804CA001BBABD /* Products */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				926C2FB3210804CC001BBABD /* LaunchScreen.storyboard in Resources */,
+				92D8A6D921082DC300D17E55 /* EYWeChatFloat.podspec in Resources */,
 				926C2FB0210804CC001BBABD /* Assets.xcassets in Resources */,
 				926C2FAE210804CA001BBABD /* Main.storyboard in Resources */,
 			);
