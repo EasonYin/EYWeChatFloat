@@ -190,7 +190,7 @@
                     if (self.haveFloatView == NO) {
                         //超出maxCount提示
                         if (self.floatViewArray.count >= self.MaxFloatViewArrayCount) {
-                            [self showAlert:[NSString stringWithFormat:@"最多只能添加%zd个",self.MaxFloatViewArrayCount]];
+                            [self showAlert:[NSString stringWithFormat:@"最多只能添加%d个",self.MaxFloatViewArrayCount]];
                             return;
                         }
                         EYFloatBall *floatBall = [[EYFloatBall alloc] initWithFrame:CGRectMake(SCREEN_WIDTH - kBallSizeR - margin, SCREEN_HEIGHT / 3, kBallSizeR, kBallSizeR)];
